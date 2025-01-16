@@ -1,0 +1,51 @@
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: var(--active);
+    border: 2px solid var(--active);
+    border-radius: 12px;
+    padding: 8px 16px;
+    width: 300px;
+}
+
+.search-box.active {
+    border: 2px solid var(--accent);
+}
+
+.search-box-icon > svg {
+    width: 20px;
+    color: var(--text_accent);
+    margin-right: 8px;
+    height: 20px;
+    stroke: var(--text_accent);
+    stroke-width: 10px !important;
+}
+
+.bookmark-button {
+    width: 40px;
+    height: 40px;
+    background-color: var(--active);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid var(--active);
+}
+
+.bookmark-button:hover {
+    border: 2px solid var(--accent);
+}
+
+.search-input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+    width: 100%;
+}
+
+.search-input::placeholder {
+    color: var(--text_accent);
+}
